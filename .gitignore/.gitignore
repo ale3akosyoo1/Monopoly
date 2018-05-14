@@ -1,0 +1,51 @@
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		ArrayList<Boxes> panel = new ArrayList<Boxes>();
+		BoxExtra p1 = new BoxExtra("Afethria",1,200);
+		BoxLocations p2 = new BoxLocations("Eukarpia",2,50,0);
+		BoxLocations p214 = new BoxLocations("Xarilaou",4,70,0);
+		BoxLocations p3 = new BoxLocations("Cafe Mera",6,100,0);
+		BoxLocations p4 = new BoxLocations("Coffee Island",7,120,0);
+		BoxLocations p5 = new BoxLocations("Polixnh",10,150,0);
+		BoxLocations p6= new BoxLocations("Euosmos",11,170,0);
+		BoxLocations p7 = new BoxLocations("One Salonica",14,200,0);
+		BoxLocations p8= new BoxLocations("Odeon",16,220,0);
+		BoxLocations p9 = new BoxLocations("Deth",18,250,0);
+		BoxLocations p10 = new BoxLocations("Antigonidwn",19,270,0);
+		BoxLocations p11= new BoxLocations("Limani",22,300,0);
+		BoxLocations p12= new BoxLocations("Leukos Purgos",24,320,0);
+		BoxLocations p13= new BoxLocations("Ap8",26,350,0);
+		BoxLocations p14= new BoxLocations("Kamara",27,370,0);
+		BoxLocations p15= new BoxLocations("Pamak",30,400,0);
+		BoxLocations p16= new BoxLocations("Aristotelous",32,420,0);
+		panel.add(p1);
+		panel.add(p2);
+		panel.add(p3);
+		panel.add(p4);
+		panel.add(p5);
+		panel.add(p6);
+		panel.add(p7);
+		panel.add(p8);
+		panel.add(p9);
+		panel.add(p10);
+		panel.add(p11);
+		panel.add(p12);
+		panel.add(p13);
+		panel.add(p14);
+		panel.add(p15);
+		panel.add(p16);
+		
+		Player pl1 = new Player(" malakas");
+
+		
+
+		System.out.println("malakas");
+		new FirstGUI(pl1,panel);
+	}
+
+
+}
